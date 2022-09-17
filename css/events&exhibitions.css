@@ -59,14 +59,9 @@ main{
     width: 100%;
     color: white;
     opacity: 80%;
-    border: solid black;
-    font-size: 1.5vW;
+    border: solid black
 }
-.activities_item1{
-    background-image: url(/img/andrew-ruiz-348421.jpg);
-    margin-bottom: 30px;
-    display: flex;
-}
+
 .activities_text1,
 .activities_text2,
 .activities_text3{
@@ -79,6 +74,7 @@ main{
     text-align: center;
     font-weight: bold;
     border: solid black;
+    font-size: 1.5vW;
 }
 .activities_text2{
     margin-left: 0%;
@@ -87,7 +83,11 @@ main{
 .activities_item2,
 .activities_item3{
     max-width: 100%;
-    max-width: 100%;
+}
+
+.activities_item1{
+    background-image: url(/img/andrew-ruiz-348421.jpg);
+    margin-bottom: 30px;
 }
 .activities_item2{
     background-image: url(/img/jesse-orrico-60373.jpg);
@@ -102,24 +102,26 @@ main{
 
 
 
-@media (min-width: 600px) {
-    .activities_item1, .activities_item2,.activities_item3{
-        height: 45vh;
+
+
+
+
+@media only screen and (min-width: 700px) {
+   
+    
     }
+    .activities_item1,
+    .activities_item2,
+    .activities_item3{
+    min-height:50vh;
 }
 
 
-
-@media (min-width: 600px) {
-    nav {
-    display: block;
-    position: static;
-    }
-    .menu-icon {
-    display: none;
-    }
-    nav a {
-        display: inline;
-        
-    } 
+@media only screen and (min-width: 400px) {
+    .activities_text1,
+    .activities_text2,
+    .activities_text3{
+    font-size: 1.6vW;
+    color: blue;
 }
+
