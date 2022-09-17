@@ -74,7 +74,7 @@ main{
     text-align: center;
     font-weight: bold;
     border: solid black;
-    font-size: 1.6vW;
+    font-size: 2vW;
 }
 .activities_text2{
     margin-left: 0%;
@@ -99,6 +99,16 @@ main{
 }
 
 
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 600px) {
     .activities_text1,
     .activities_text2,
@@ -111,9 +121,21 @@ main{
     .activities_item3{
     min-height:50vh;
 }
-    main{
+main{
     margin-left: 40px;
     margin-right: 60px;
 }
+
 }
+
+@media only screen and (max-width:600px) and (min-width: 350px) {
+    .activities_text1,
+    .activities_text2,
+    .activities_text3{
+    font-size: 1.6vW;
+    color: rgb(0, 255, 76);
+    }
+ 
+}
+
 
