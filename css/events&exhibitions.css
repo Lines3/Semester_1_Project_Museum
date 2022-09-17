@@ -42,7 +42,8 @@ nav a:hover{
 }
 main{
     align-items: center; 
-    margin: 10px; 
+    margin-left: 10px; 
+    margin-right: 30px;
 }
 .activities_item1,
 .activities_item2,
