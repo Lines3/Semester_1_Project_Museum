@@ -1,0 +1,100 @@
+html{
+    scroll-behavior: smooth;  
+    background-color: rgb(164, 170, 175);
+    overflow-x: hidden;
+}
+
+
+body{
+    font-family: chelsea market, sans-serif;
+}
+
+
+av{
+    border-bottom: solid rgb(9, 19, 204);       
+}
+nav li{
+    display: inline-block;
+    padding: 60px 15px 0 15px;
+    font-size: 20px;
+    float: right; 
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    cursor: pointer;
+    color:green;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.nav_active{
+    color:rgb(0, 0, 0);   
+}
+.nav_logo{
+    color:green;
+    float: left;
+    padding: 20px;
+    max-width: 40px;
+    font-size: 25px;
+}
+
+
+
+
+.form__input{
+    display: block;
+    margin: 0.5rem;
+}
+
+form{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+#purchasebutton{
+    background-color: black;
+    color: white;
+    padding:0.2rem;
+    margin:0.5rem;
+    cursor: pointer;
+    font-family: chelsea market, sans-serif;
+    display: block;
+}
+
+#purchasebutton:hover{
+    background-color: rgb(23, 62, 62);
+    transition: 0.3s;
+    
+}
+
+input, textarea{
+    padding:5px;
+    
+}
+
+#checkbox_newsletter{
+    margin:0.5rem;
+    
+    
+}
+
+#checkbox_newsletter:hover{
+   cursor: pointer;
+    
+}
+
+@media (min-width: 600px) {
+    nav {
+    display: block;
+    position: static;
+    }
+    .menu-icon {
+    display: none;
+    }
+    nav a {
+        display: inline;
+        
+    } 
+}
