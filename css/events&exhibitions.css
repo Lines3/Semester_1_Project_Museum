@@ -111,5 +111,9 @@ main{
     .activities_item3{
     min-height:50vh;
 }
+    main{
+    margin-left: 40px;
+    margin-right: 60px;
+}
 }
 
