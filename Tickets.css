@@ -11,6 +11,8 @@ body{
 form{
     max-width: 600px;
     display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 #purchasebutton{
