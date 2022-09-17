@@ -41,8 +41,6 @@ nav a:hover{
     font-size: 25px;
 }
 main{
-    margin-left: 10px;
-    margin-right: 30px;
     align-items: center;  
 }
 .activities_item1,
@@ -98,7 +96,10 @@ main{
     margin-bottom: 40px;
 }
 
-
+.page_title,
+footer{
+    margin:20px;
+}
 
 
 
