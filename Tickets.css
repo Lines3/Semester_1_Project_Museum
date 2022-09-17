@@ -1,0 +1,46 @@
+body{
+    font-family: chelsea market, sans-serif;
+}
+
+
+.form__input{
+    display: block;
+    margin: 0.5rem;
+}
+
+form{
+    max-width: 600px;
+}
+
+#purchasebutton{
+    background-color: black;
+    color: white;
+    padding:0.2rem;
+    margin:0.5rem;
+    cursor: pointer;
+    font-family: chelsea market, sans-serif;
+    display: block;
+}
+
+#purchasebutton:hover{
+    background-color: rgb(23, 62, 62);
+    transition: 0.3s;
+    
+}
+
+input, textarea{
+    padding:5px;
+    
+}
+
+#checkbox_newsletter{
+    margin:0.5rem;
+    
+    
+}
+
+#checkbox_newsletter:hover{
+   cursor: pointer;
+    
+}
+
