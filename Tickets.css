@@ -44,3 +44,16 @@ input, textarea{
     
 }
 
+@media (min-width: 600px) {
+    nav {
+    display: block;
+    position: static;
+    }
+    .menu-icon {
+    display: none;
+    }
+    nav a {
+        display: inline;
+        
+    } 
+}
