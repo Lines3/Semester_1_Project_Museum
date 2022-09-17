@@ -99,29 +99,17 @@ main{
 }
 
 
-
-
-
-
-
-
-
-@media only screen and (min-width: 700px) {
-   
-    
+@media only screen and (min-width: 600px) {
+    .activities_text1,
+    .activities_text2,
+    .activities_text3{
+    font-size: 1.6vW;
+    color: blue;
     }
     .activities_item1,
     .activities_item2,
     .activities_item3{
     min-height:50vh;
 }
-
-
-@media only screen and (min-width: 400px) {
-    .activities_text1,
-    .activities_text2,
-    .activities_text3{
-    font-size: 1.6vW;
-    color: blue;
 }
 
