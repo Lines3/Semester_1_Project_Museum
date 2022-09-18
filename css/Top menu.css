@@ -1,0 +1,126 @@
+html{
+    font-family: chelsea market, verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100%;
+    margin:0;
+
+}
+
+main{
+    margin:20px;
+}
+
+
+#checkbox-menu:checked ~ nav{
+    display: block;
+
+}
+#checkbox-menu, nav{
+    display: none; 
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+    
+    
+}
+
+nav{
+    background-color: black;
+    opacity: 70%;
+    position: absolute;
+    border-bottom: solid rgb(9, 19, 204); 
+    
+    
+}
+
+.nav_logo_mobile{
+ margin-left: 50%;
+ text-decoration: none;
+ color:green; 
+ 
+
+}
+
+.fa{
+    padding:10px;
+    min-width: 20px;
+}
+
+
+.header{
+    background-image: url(/img/exhibition-1863344_1920V2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 10vw;
+    font-size: 3.5vw;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px whitesmoke;
+    padding:20px; 
+    border-top: solid rgb(9, 19, 204); 
+}
+
+
+   
+@media only screen and (min-width: 600px){
+   
+    .menu-icon{
+        display:none;
+
+    }
+    nav{ 
+        position: static;
+        background-color: white;
+        margin-top: 10px;
+        display: block;
+        
+ 
+        
+    }
+
+    .nav_logo_mobile{
+        display: none;
+    }
+    nav li{
+        font-size: 2vw;
+        float: right; 
+        margin-top: 70px;
+        list-style: none;
+        
+    }
+        
+    }
+    nav a:hover{
+        cursor: pointer;
+        color:green;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    .nav_active{
+        color:rgb(0, 0, 0);  
+
+    }
+    .nav_logo{
+        color:green;
+        float: left;
+        padding: 20px;
+        max-width: 40px;
+        font-size: 25px;
+}
+
+   
+
+
+
+
+
+
