@@ -43,9 +43,10 @@ nav{
 }
 
 .nav_logo_mobile{
- margin-left: 50%;
+ 
  text-decoration: none;
  color:green; 
+ text-align: center;
  
 
 }
