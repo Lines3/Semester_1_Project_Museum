@@ -82,7 +82,7 @@ main, footer{
     font-size: 2em;
     color: rgb(0, 0, 0);
     text-shadow: 5px 5px whitesmoke;
-    padding:20px; 
+    padding:10vw;  
     border-top: solid #1465DD;
 }
 
